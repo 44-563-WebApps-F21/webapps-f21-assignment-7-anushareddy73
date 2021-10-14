@@ -144,6 +144,12 @@ text-align: center;
                   let distance = Math.abs(x2 - x1) + Math.abs(y2 - y1);
                   return distance;
       }
+      function newGame(){
+            clickCount =0
+            let treasureLocation = Math.random(0,24)
+            document.getElementById("tries").innerHTML="Number of clicks is "+clickCount
+            document.getElementById("distance").innerHTML="Distance is Unknown"
+      }
  </script>
 </body>
 </html>
